@@ -9,7 +9,7 @@ void init() {
 	srand(time(NULL));
 }
 
-//Loads the selected program to RAM
+//Loads the selected program to RAM starting add address 0x200
 void readToRam(unsigned char RAM[]) {
 	unsigned char filename[256];
 	printf("Select a file to open:\n");
@@ -73,7 +73,7 @@ void clearScreen() {
 }
 
 //TODO WORK THE BUZZER OUT ---------------------------------------------------
-//Set buzzer on if state = 1 else turn buzzer off
-void buzzer(unsigned char ms) {
-	Beep(500, ms);
+//Turns the buzzer on for ms
+void buzzer() {
+	Beep(500, 1);
 }

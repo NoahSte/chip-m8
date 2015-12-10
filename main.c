@@ -337,6 +337,7 @@ int main() {
 		}
 		if(ST > 0) {
 			ST--;
+			buzzer();
 		}
 	}
 }

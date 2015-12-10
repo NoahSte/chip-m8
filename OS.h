@@ -13,4 +13,4 @@ unsigned char checkKeyPress(unsigned char key);
 unsigned char waitKeyPress();
 void drawPixel(unsigned char x, unsigned char y, unsigned char state);
 void clearScreen();
-void buzzer(unsigned char ms);
+void buzzer();
