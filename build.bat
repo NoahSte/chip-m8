@@ -1,0 +1,1 @@
+gcc main.c OS.c OS.h -std=c99 -o chip8.exe
